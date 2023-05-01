@@ -1,0 +1,55 @@
+:root {
+  --main: #3e2f76;
+  --secondary: #3498db;
+  --text: #f0f0f0;
+  --background: #191819;
+}
+
+* {
+  box-sizing: border-box;
+  margin: auto;
+}
+header,
+main{
+    margin: 10px auto;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  line-height: normal;
+  font-family: "Montserrat", sans-serif;
+  color: var(--text);
+  background-image: linear-gradient(
+    315deg,
+    var(--secondary) 0%,
+    var(--main) 77%
+  );
+  margin: auto;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: x-large;
+}
+
+.astroInfo {
+  width: 80%;
+  padding: 20px 40px;
+  background-color: var(--background);
+  border: 2px solid var(--text);
+  border-radius: 15px;
+
+}
+
+.info,
+.picture-title,
+.copyright {
+  margin: 20px 40px;
+}
+.star {
+  width: 50%;
+}
